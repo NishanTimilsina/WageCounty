@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162C4DEF7E955E19A1B31C3969A71F44 /* PageMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD337CF172B730DBBB1CA8ABF1463A /* PageMenu-dummy.m */; };
+		19B00B2A0FB18D86BD4DF7E53DFA938A /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEAF56CD8447018A2246A2610B262A /* CAPSPageMenu.swift */; };
+		516AFA96E5EDF0EA318586B21957A70B /* Pods-WageCountyProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 583FA38F3126EB7C3E88A9182F69D669 /* Pods-WageCountyProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A45D8FFF0516B315A633432AB7601F7 /* PageMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F34C789D91284629274B8B269AF2D7B1 /* PageMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EBA727E1393805DA0DA237D3D32E366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		71A99F69B3588B26BF5F21BE20A77C2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		82595CF3A36B1AEC32F5E8BCD6A5208D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		86536DC16782662B8E9DBBB16D6C013A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		914A445AE5C7C6B656DE44F2C161CEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		ADC403C5504257AB70280FED5371EA36 /* Pods-WageCountyProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9F01377A19F1CE713C86024EF49A0A /* Pods-WageCountyProject-dummy.m */; };
+		BE7B13CCC2EB179F0812F5D363CB7875 /* Pods-WageCountyProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B43C9333D8C593A703D81DFED5DBCAB0 /* Pods-WageCountyProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C091A57444B0616A2CBF367C08550101 /* Pods-WageCountyProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F639AA04F82B8A852284710AD12513 /* Pods-WageCountyProjectTests-dummy.m */; };
+		C73C092E742949AACB740EFB38C285B9 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A44FC6452213B7DA22F029D90B8457B6 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4D4A4C06F1FA44B9D0D17F3E6889948 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD3505FFEFC05B6915B78D49C5D9378 /* Pods-dummy.m */; };
+		EE2AA62C346A6DD04719B0BCA15166A5 /* Pods-WageCountyProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB2E5EE87F2CF4C45A0E846C1E5CE43 /* Pods-WageCountyProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEAFCC8E017E5E4994EBF365B04E7577 /* Pods-WageCountyProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F744DE2E16BB0ABE75F27D782E0ECF14 /* Pods-WageCountyProjectUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		106E05519691B05D4D8D6615806C5D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C461B0CAD90DE64B07A5D212C5F829;
+			remoteInfo = PageMenu;
+		};
+		2CF981D53D281F3A5EEBD5DAF40B88A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C461B0CAD90DE64B07A5D212C5F829;
+			remoteInfo = PageMenu;
+		};
+		5DAD56B0A48475FA307FD37FD810BBB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C461B0CAD90DE64B07A5D212C5F829;
+			remoteInfo = PageMenu;
+		};
+		921A80BF66BAACE262860CF32A0627E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C461B0CAD90DE64B07A5D212C5F829;
+			remoteInfo = PageMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FEFC3BAD1EDF18F2A8395994E265AA /* Pods-WageCountyProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WageCountyProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		04DF50A1F97872DACFA4125DC5EB5BF4 /* Pods-WageCountyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WageCountyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		05776A45EC2832612A362D4E3C6EEA7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10049967617E33682C20E1A8A530B728 /* Pods-WageCountyProjectUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WageCountyProjectUITests-resources.sh"; sourceTree = "<group>"; };
+		12AD337CF172B730DBBB1CA8ABF1463A /* PageMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PageMenu-dummy.m"; sourceTree = "<group>"; };
+		15A263841CDF0B6404FBDCC06D11392A /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		1842BCE2D4DD54DB46DF476D4C1C09E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19022358A86AB0AA31848E10EFEBF221 /* Pods-WageCountyProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WageCountyProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24A7FA8009130605ED54D0583CCF9D73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F639AA04F82B8A852284710AD12513 /* Pods-WageCountyProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WageCountyProjectTests-dummy.m"; sourceTree = "<group>"; };
+		28A045B6E83F793FBC27BA8C5EF8F41C /* Pods-WageCountyProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WageCountyProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CA7C63F3C5A0965482CFFB0FFBC7F04 /* Pods-WageCountyProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WageCountyProject.modulemap"; sourceTree = "<group>"; };
+		2CFFC0DA0B4B0F824B3340F4056112B0 /* Pods-WageCountyProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WageCountyProjectTests-frameworks.sh"; sourceTree = "<group>"; };
+		31429AE8EB9D95EC23FCD0CB82B926CE /* PageMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PageMenu.xcconfig; sourceTree = "<group>"; };
+		32DFD3A706E97128D3F4E49794CEF377 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FAEAF56CD8447018A2246A2610B262A /* CAPSPageMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = Classes/CAPSPageMenu.swift; sourceTree = "<group>"; };
+		4026972481A2CA34F65B072D8CDA8DA7 /* Pods-WageCountyProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WageCountyProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47AD81DF4853F25D0348A8ADED86545C /* Pods-WageCountyProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WageCountyProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		57A56EEB017FEB4DB8484D98619BE333 /* Pods-WageCountyProjectTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WageCountyProjectTests-resources.sh"; sourceTree = "<group>"; };
+		583FA38F3126EB7C3E88A9182F69D669 /* Pods-WageCountyProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WageCountyProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		5BCA5DCB6C6DFC37E3849370EB67BBF3 /* Pods-WageCountyProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WageCountyProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6609051BB63EC720E87F740A82ED83BF /* PageMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PageMenu.modulemap; sourceTree = "<group>"; };
+		6AE9FABA505E62D8A8264A274BA8EB9E /* Pods-WageCountyProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WageCountyProjectTests.modulemap"; sourceTree = "<group>"; };
+		6FBD49111DE9D724579EFE8D716977B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		743139334DD97015CB2CEF2961D464BE /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BAC60E66EA947E5FD6B9A1814F4EEAE /* Pods-WageCountyProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WageCountyProjectUITests.modulemap"; sourceTree = "<group>"; };
+		8318591FC49132A6781E2882794BDCDF /* Pods-WageCountyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WageCountyProject.release.xcconfig"; sourceTree = "<group>"; };
+		89D91F0BC6C0B446948188ACEBC59E7B /* Pods-WageCountyProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WageCountyProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A8ED1B4BB383DF23DBF35F120778558 /* Pods_WageCountyProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WageCountyProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		928BDFC57DF9F0D91102D2B513914CD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB2E5EE87F2CF4C45A0E846C1E5CE43 /* Pods-WageCountyProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WageCountyProject-umbrella.h"; sourceTree = "<group>"; };
+		9DACF6B1EB10E3A0DB5CD95ED8DDDE92 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E4F06F5D3CBD70D11145F1166AC5048 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44FC6452213B7DA22F029D90B8457B6 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		A5628B051F806500C482E5D7AE48C0B8 /* Pods_WageCountyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WageCountyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43C9333D8C593A703D81DFED5DBCAB0 /* Pods-WageCountyProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WageCountyProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		B4928C8051490EF83262EAF5609A61CE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC530B7E2FCF86EB22D674E6BED263F4 /* PageMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-prefix.pch"; sourceTree = "<group>"; };
+		C60DD41BB4C1F457E7CADF77F3ADDC04 /* Pods-WageCountyProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WageCountyProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7CD9CE26B6AFD3C50525EABC2776E4E /* PageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EF3F6E132481B19065C48A715483D2 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CA7C2333ED7DA21FAAFEA38B8B0BEAFF /* Pods-WageCountyProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WageCountyProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF1F083882448333C56AAEE0FF9332B /* Pods-WageCountyProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WageCountyProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFF2C5AEC33FDA098E3E6AC40DCB069A /* Pods-WageCountyProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WageCountyProject-frameworks.sh"; sourceTree = "<group>"; };
+		D2BA30A31FA7337EC1F7E70210C84E5D /* Pods-WageCountyProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WageCountyProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD3505FFEFC05B6915B78D49C5D9378 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		DB14D67A5E8F14C5CA01F07C4626686C /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		DC9F01377A19F1CE713C86024EF49A0A /* Pods-WageCountyProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WageCountyProject-dummy.m"; sourceTree = "<group>"; };
+		E65AB74172060797ED79AA27457911BF /* Pods_WageCountyProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WageCountyProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED75BD49E8DBEA22FE7FCABC576B9A8C /* Pods-WageCountyProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WageCountyProject-resources.sh"; sourceTree = "<group>"; };
+		F34C789D91284629274B8B269AF2D7B1 /* PageMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-umbrella.h"; sourceTree = "<group>"; };
+		F744DE2E16BB0ABE75F27D782E0ECF14 /* Pods-WageCountyProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WageCountyProjectUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330CC5E4A5D55D4DD5B5851B94F36617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914A445AE5C7C6B656DE44F2C161CEEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C1CF5052F0E4E0F0CB21EC9463002B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A99F69B3588B26BF5F21BE20A77C2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5FBE46555305C54A71B3C929671293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82595CF3A36B1AEC32F5E8BCD6A5208D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7705871AEC8EC69E20A9F85DF3CFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBA727E1393805DA0DA237D3D32E366 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A7B9969C184BAFE2AC915BCE74A93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86536DC16782662B8E9DBBB16D6C013A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F293D4D2F1FE7D88C4F431BD93A7F87 /* Pods-WageCountyProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1842BCE2D4DD54DB46DF476D4C1C09E2 /* Info.plist */,
+				6AE9FABA505E62D8A8264A274BA8EB9E /* Pods-WageCountyProjectTests.modulemap */,
+				28A045B6E83F793FBC27BA8C5EF8F41C /* Pods-WageCountyProjectTests-acknowledgements.markdown */,
+				19022358A86AB0AA31848E10EFEBF221 /* Pods-WageCountyProjectTests-acknowledgements.plist */,
+				26F639AA04F82B8A852284710AD12513 /* Pods-WageCountyProjectTests-dummy.m */,
+				2CFFC0DA0B4B0F824B3340F4056112B0 /* Pods-WageCountyProjectTests-frameworks.sh */,
+				57A56EEB017FEB4DB8484D98619BE333 /* Pods-WageCountyProjectTests-resources.sh */,
+				B43C9333D8C593A703D81DFED5DBCAB0 /* Pods-WageCountyProjectTests-umbrella.h */,
+				CA7C2333ED7DA21FAAFEA38B8B0BEAFF /* Pods-WageCountyProjectTests.debug.xcconfig */,
+				CDF1F083882448333C56AAEE0FF9332B /* Pods-WageCountyProjectTests.release.xcconfig */,
+			);
+			name = "Pods-WageCountyProjectTests";
+			path = "Target Support Files/Pods-WageCountyProjectTests";
+			sourceTree = "<group>";
+		};
+		1D74C08AFBC570BF063374C4174EAC99 /* Pods-WageCountyProject */ = {
+			isa = PBXGroup;
+			children = (
+				24A7FA8009130605ED54D0583CCF9D73 /* Info.plist */,
+				2CA7C63F3C5A0965482CFFB0FFBC7F04 /* Pods-WageCountyProject.modulemap */,
+				4026972481A2CA34F65B072D8CDA8DA7 /* Pods-WageCountyProject-acknowledgements.markdown */,
+				02FEFC3BAD1EDF18F2A8395994E265AA /* Pods-WageCountyProject-acknowledgements.plist */,
+				DC9F01377A19F1CE713C86024EF49A0A /* Pods-WageCountyProject-dummy.m */,
+				CFF2C5AEC33FDA098E3E6AC40DCB069A /* Pods-WageCountyProject-frameworks.sh */,
+				ED75BD49E8DBEA22FE7FCABC576B9A8C /* Pods-WageCountyProject-resources.sh */,
+				9CB2E5EE87F2CF4C45A0E846C1E5CE43 /* Pods-WageCountyProject-umbrella.h */,
+				04DF50A1F97872DACFA4125DC5EB5BF4 /* Pods-WageCountyProject.debug.xcconfig */,
+				8318591FC49132A6781E2882794BDCDF /* Pods-WageCountyProject.release.xcconfig */,
+			);
+			name = "Pods-WageCountyProject";
+			path = "Target Support Files/Pods-WageCountyProject";
+			sourceTree = "<group>";
+		};
+		6F34C452243705216BAECF62FA9A6914 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		74B868158F8492F9F966A07B554C8ABD /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		79533C963608331CAB84D763DE480D81 /* Pods-WageCountyProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E4F06F5D3CBD70D11145F1166AC5048 /* Info.plist */,
+				7BAC60E66EA947E5FD6B9A1814F4EEAE /* Pods-WageCountyProjectUITests.modulemap */,
+				5BCA5DCB6C6DFC37E3849370EB67BBF3 /* Pods-WageCountyProjectUITests-acknowledgements.markdown */,
+				C60DD41BB4C1F457E7CADF77F3ADDC04 /* Pods-WageCountyProjectUITests-acknowledgements.plist */,
+				F744DE2E16BB0ABE75F27D782E0ECF14 /* Pods-WageCountyProjectUITests-dummy.m */,
+				47AD81DF4853F25D0348A8ADED86545C /* Pods-WageCountyProjectUITests-frameworks.sh */,
+				10049967617E33682C20E1A8A530B728 /* Pods-WageCountyProjectUITests-resources.sh */,
+				583FA38F3126EB7C3E88A9182F69D669 /* Pods-WageCountyProjectUITests-umbrella.h */,
+				D2BA30A31FA7337EC1F7E70210C84E5D /* Pods-WageCountyProjectUITests.debug.xcconfig */,
+				89D91F0BC6C0B446948188ACEBC59E7B /* Pods-WageCountyProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-WageCountyProjectUITests";
+			path = "Target Support Files/Pods-WageCountyProjectUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A47C70BB77FFCF1AD76CBF1EC1A2E0A8 /* Pods */,
+				E9B047057AEC43E179178DDAF8BE43AE /* Products */,
+				DD4F63373F7337D845C36FBB8D9D4D5A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A139580FB87FA09B9BC6F3E72BE927E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05776A45EC2832612A362D4E3C6EEA7F /* Info.plist */,
+				15A263841CDF0B6404FBDCC06D11392A /* Pods.modulemap */,
+				743139334DD97015CB2CEF2961D464BE /* Pods-acknowledgements.markdown */,
+				9DACF6B1EB10E3A0DB5CD95ED8DDDE92 /* Pods-acknowledgements.plist */,
+				DAD3505FFEFC05B6915B78D49C5D9378 /* Pods-dummy.m */,
+				DB14D67A5E8F14C5CA01F07C4626686C /* Pods-frameworks.sh */,
+				C7EF3F6E132481B19065C48A715483D2 /* Pods-resources.sh */,
+				A44FC6452213B7DA22F029D90B8457B6 /* Pods-umbrella.h */,
+				32DFD3A706E97128D3F4E49794CEF377 /* Pods.debug.xcconfig */,
+				6FBD49111DE9D724579EFE8D716977B1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		A47C70BB77FFCF1AD76CBF1EC1A2E0A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F34C452243705216BAECF62FA9A6914 /* Alamofire */,
+				C80E90C610308163E76285A1D347735C /* PageMenu */,
+				74B868158F8492F9F966A07B554C8ABD /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C80E90C610308163E76285A1D347735C /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3FAEAF56CD8447018A2246A2610B262A /* CAPSPageMenu.swift */,
+				CDF68F6597E917E05D08766F1FAFD7BD /* Support Files */,
+			);
+			path = PageMenu;
+			sourceTree = "<group>";
+		};
+		CDF68F6597E917E05D08766F1FAFD7BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				928BDFC57DF9F0D91102D2B513914CD5 /* Info.plist */,
+				6609051BB63EC720E87F740A82ED83BF /* PageMenu.modulemap */,
+				31429AE8EB9D95EC23FCD0CB82B926CE /* PageMenu.xcconfig */,
+				12AD337CF172B730DBBB1CA8ABF1463A /* PageMenu-dummy.m */,
+				BC530B7E2FCF86EB22D674E6BED263F4 /* PageMenu-prefix.pch */,
+				F34C789D91284629274B8B269AF2D7B1 /* PageMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PageMenu";
+			sourceTree = "<group>";
+		};
+		DD4F63373F7337D845C36FBB8D9D4D5A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A139580FB87FA09B9BC6F3E72BE927E3 /* Pods */,
+				1D74C08AFBC570BF063374C4174EAC99 /* Pods-WageCountyProject */,
+				0F293D4D2F1FE7D88C4F431BD93A7F87 /* Pods-WageCountyProjectTests */,
+				79533C963608331CAB84D763DE480D81 /* Pods-WageCountyProjectUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E9B047057AEC43E179178DDAF8BE43AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD9CE26B6AFD3C50525EABC2776E4E /* PageMenu.framework */,
+				B4928C8051490EF83262EAF5609A61CE /* Pods.framework */,
+				A5628B051F806500C482E5D7AE48C0B8 /* Pods_WageCountyProject.framework */,
+				E65AB74172060797ED79AA27457911BF /* Pods_WageCountyProjectTests.framework */,
+				8A8ED1B4BB383DF23DBF35F120778558 /* Pods_WageCountyProjectUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0846C909E144BEE3D8FF11D3064F1F88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73C092E742949AACB740EFB38C285B9 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4AB3702FDD8AB5E4903C7FF1491BB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516AFA96E5EDF0EA318586B21957A70B /* Pods-WageCountyProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6209148B2C0D9BEA75963839B74F4D4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7B13CCC2EB179F0812F5D363CB7875 /* Pods-WageCountyProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C649FB80E2D7A80904670C6F6F1C84D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A45D8FFF0516B315A633432AB7601F7 /* PageMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA50B7951615992BA226689E88197311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2AA62C346A6DD04719B0BCA15166A5 /* Pods-WageCountyProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD80BA95D68F87EAD97E01F63171E287 /* Build configuration list for PBXNativeTarget "PageMenu" */;
+			buildPhases = (
+				BE4773BA65A16D7C82A01FCB22D49165 /* Sources */,
+				AA5FBE46555305C54A71B3C929671293 /* Frameworks */,
+				C649FB80E2D7A80904670C6F6F1C84D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageMenu;
+			productName = PageMenu;
+			productReference = C7CD9CE26B6AFD3C50525EABC2776E4E /* PageMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C2874B87E538692E5A149F1E3D0C1E4 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15BEAAD1C1074E16BFA815F6DA1B63F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				73C7C8182BB7844B8D64291C900CDB7D /* Sources */,
+				87C1CF5052F0E4E0F0CB21EC9463002B /* Frameworks */,
+				0846C909E144BEE3D8FF11D3064F1F88 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE93A8846D9832547198E508DBF5CFF /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = B4928C8051490EF83262EAF5609A61CE /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DF4B836E49E852BEA2FD710F5762034 /* Pods-WageCountyProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D64216404644D1138755240503970D5 /* Build configuration list for PBXNativeTarget "Pods-WageCountyProjectTests" */;
+			buildPhases = (
+				57849CC15A696D0DF0283B91853C1A62 /* Sources */,
+				D3A7B9969C184BAFE2AC915BCE74A93B /* Frameworks */,
+				6209148B2C0D9BEA75963839B74F4D4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23D92BFC1F83D699F497E5757748FDE /* PBXTargetDependency */,
+			);
+			name = "Pods-WageCountyProjectTests";
+			productName = "Pods-WageCountyProjectTests";
+			productReference = E65AB74172060797ED79AA27457911BF /* Pods_WageCountyProjectTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C554B9A8F15CF293656D330C03B05E13 /* Pods-WageCountyProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B2ACD62FC7EC0681CBBB08E939785B /* Build configuration list for PBXNativeTarget "Pods-WageCountyProjectUITests" */;
+			buildPhases = (
+				1942B33C986785F5960D74FEA820026E /* Sources */,
+				330CC5E4A5D55D4DD5B5851B94F36617 /* Frameworks */,
+				2E4AB3702FDD8AB5E4903C7FF1491BB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EC4E7629B6822F0485771C50D82A68 /* PBXTargetDependency */,
+			);
+			name = "Pods-WageCountyProjectUITests";
+			productName = "Pods-WageCountyProjectUITests";
+			productReference = 8A8ED1B4BB383DF23DBF35F120778558 /* Pods_WageCountyProjectUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7901DD408E10B0A73A39BF1D84085EA /* Pods-WageCountyProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DF1B581EC5B115226802D990599AA1 /* Build configuration list for PBXNativeTarget "Pods-WageCountyProject" */;
+			buildPhases = (
+				F724D2ADE2E4035BB5D07BD1A9D0181F /* Sources */,
+				CD7705871AEC8EC69E20A9F85DF3CFFE /* Frameworks */,
+				EA50B7951615992BA226689E88197311 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6336FADFE17C220718BB19980143486 /* PBXTargetDependency */,
+			);
+			name = "Pods-WageCountyProject";
+			productName = "Pods-WageCountyProject";
+			productReference = A5628B051F806500C482E5D7AE48C0B8 /* Pods_WageCountyProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E9B047057AEC43E179178DDAF8BE43AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */,
+				3C2874B87E538692E5A149F1E3D0C1E4 /* Pods */,
+				C7901DD408E10B0A73A39BF1D84085EA /* Pods-WageCountyProject */,
+				3DF4B836E49E852BEA2FD710F5762034 /* Pods-WageCountyProjectTests */,
+				C554B9A8F15CF293656D330C03B05E13 /* Pods-WageCountyProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1942B33C986785F5960D74FEA820026E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAFCC8E017E5E4994EBF365B04E7577 /* Pods-WageCountyProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57849CC15A696D0DF0283B91853C1A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C091A57444B0616A2CBF367C08550101 /* Pods-WageCountyProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C7C8182BB7844B8D64291C900CDB7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D4A4C06F1FA44B9D0D17F3E6889948 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4773BA65A16D7C82A01FCB22D49165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B00B2A0FB18D86BD4DF7E53DFA938A /* CAPSPageMenu.swift in Sources */,
+				162C4DEF7E955E19A1B31C3969A71F44 /* PageMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F724D2ADE2E4035BB5D07BD1A9D0181F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC403C5504257AB70280FED5371EA36 /* Pods-WageCountyProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11EC4E7629B6822F0485771C50D82A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PageMenu;
+			target = 21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */;
+			targetProxy = 921A80BF66BAACE262860CF32A0627E2 /* PBXContainerItemProxy */;
+		};
+		ABE93A8846D9832547198E508DBF5CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PageMenu;
+			target = 21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */;
+			targetProxy = 2CF981D53D281F3A5EEBD5DAF40B88A6 /* PBXContainerItemProxy */;
+		};
+		B23D92BFC1F83D699F497E5757748FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PageMenu;
+			target = 21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */;
+			targetProxy = 106E05519691B05D4D8D6615806C5D00 /* PBXContainerItemProxy */;
+		};
+		F6336FADFE17C220718BB19980143486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PageMenu;
+			target = 21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */;
+			targetProxy = 5DAD56B0A48475FA307FD37FD810BBB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C0B15401F6ECA7D3E216353D151A43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31429AE8EB9D95EC23FCD0CB82B926CE /* PageMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PageMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		220A903D79F9E830F1AB4B4618D97ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF1F083882448333C56AAEE0FF9332B /* Pods-WageCountyProjectTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WageCountyProjectTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WageCountyProjectTests/Pods-WageCountyProjectTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WageCountyProjectTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25F8E25F0BE8F041104D99F50674A2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DFD3A706E97128D3F4E49794CEF377 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A014DA25E2FD125D097D5C62D2F0037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7C2333ED7DA21FAAFEA38B8B0BEAFF /* Pods-WageCountyProjectTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WageCountyProjectTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WageCountyProjectTests/Pods-WageCountyProjectTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WageCountyProjectTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E030760A1E4B9E6D75FC17BB2F3B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31429AE8EB9D95EC23FCD0CB82B926CE /* PageMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PageMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C1BB14F29B795E6BB427B724534AE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8318591FC49132A6781E2882794BDCDF /* Pods-WageCountyProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WageCountyProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WageCountyProject/Pods-WageCountyProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WageCountyProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9322F53745DD9D655CC063B564322095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BA30A31FA7337EC1F7E70210C84E5D /* Pods-WageCountyProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WageCountyProjectUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WageCountyProjectUITests/Pods-WageCountyProjectUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WageCountyProjectUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C36AE4FEC1FDAE75FF4FB6F5A793AC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D91F0BC6C0B446948188ACEBC59E7B /* Pods-WageCountyProjectUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WageCountyProjectUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WageCountyProjectUITests/Pods-WageCountyProjectUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WageCountyProjectUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E80B593E0491B10DB99B5882C3FC2F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBD49111DE9D724579EFE8D716977B1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2C464185AF544F8E1E96D1DCB63287E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04DF50A1F97872DACFA4125DC5EB5BF4 /* Pods-WageCountyProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WageCountyProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WageCountyProject/Pods-WageCountyProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WageCountyProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DF1B581EC5B115226802D990599AA1 /* Build configuration list for PBXNativeTarget "Pods-WageCountyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C464185AF544F8E1E96D1DCB63287E /* Debug */,
+				8C1BB14F29B795E6BB427B724534AE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D64216404644D1138755240503970D5 /* Build configuration list for PBXNativeTarget "Pods-WageCountyProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A014DA25E2FD125D097D5C62D2F0037 /* Debug */,
+				220A903D79F9E830F1AB4B4618D97ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B2ACD62FC7EC0681CBBB08E939785B /* Build configuration list for PBXNativeTarget "Pods-WageCountyProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9322F53745DD9D655CC063B564322095 /* Debug */,
+				C36AE4FEC1FDAE75FF4FB6F5A793AC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD80BA95D68F87EAD97E01F63171E287 /* Build configuration list for PBXNativeTarget "PageMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E030760A1E4B9E6D75FC17BB2F3B7F /* Debug */,
+				1C0B15401F6ECA7D3E216353D151A43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15BEAAD1C1074E16BFA815F6DA1B63F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F8E25F0BE8F041104D99F50674A2BF /* Debug */,
+				E80B593E0491B10DB99B5882C3FC2F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

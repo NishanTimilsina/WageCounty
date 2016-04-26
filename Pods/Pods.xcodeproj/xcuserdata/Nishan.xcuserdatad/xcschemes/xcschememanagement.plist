@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PageMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WageCountyProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WageCountyProjectTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WageCountyProjectUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>21C461B0CAD90DE64B07A5D212C5F829</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C2874B87E538692E5A149F1E3D0C1E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3DF4B836E49E852BEA2FD710F5762034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C554B9A8F15CF293656D330C03B05E13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7901DD408E10B0A73A39BF1D84085EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
