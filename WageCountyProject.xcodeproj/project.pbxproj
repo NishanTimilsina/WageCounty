@@ -24,6 +24,7 @@
 		DDA246BD1CCFC42800249A7E /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA246BB1CCFC42800249A7E /* reveal-icon@2x.png */; };
 		DDA246BF1CCFD5AE00249A7E /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA246BE1CCFD5AE00249A7E /* FAQViewController.swift */; };
 		DDA246C11CCFDC0800249A7E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA246C01CCFDC0800249A7E /* AboutViewController.swift */; };
+		DDA246ED1CD55B6B00249A7E /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA246EC1CD55B6B00249A7E /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		DDA246BB1CCFC42800249A7E /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
 		DDA246BE1CCFD5AE00249A7E /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		DDA246C01CCFDC0800249A7E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
+		DDA246EC1CD55B6B00249A7E /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		ED7DC16854A8CF35A3DE3113 /* Pods_WageCountyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WageCountyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -164,6 +166,7 @@
 				DDA245CB1CCB241700249A7E /* URL.h */,
 				DDA246C01CCFDC0800249A7E /* AboutViewController.swift */,
 				DDA246BE1CCFD5AE00249A7E /* FAQViewController.swift */,
+				DDA246EC1CD55B6B00249A7E /* MenuTableViewController.swift */,
 			);
 			path = WageCountyProject;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			files = (
 				DDA246B91CCFBC9A00249A7E /* SWRevealViewController.m in Sources */,
 				DDA246BF1CCFD5AE00249A7E /* FAQViewController.swift in Sources */,
+				DDA246ED1CD55B6B00249A7E /* MenuTableViewController.swift in Sources */,
 				DDA245C81CCB118E00249A7E /* wageFinderViewController.swift in Sources */,
 				DDA246C11CCFDC0800249A7E /* AboutViewController.swift in Sources */,
 				DDA2459F1CCB023B00249A7E /* WageCountyProject.xcdatamodeld in Sources */,
@@ -541,6 +545,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WageCountyProject-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -560,6 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nishan.WageCountyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WageCountyProject-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

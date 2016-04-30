@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0F7A8B71090EDAE5933DF31AC3E60698ECDA809A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB3E5ED5AD1DA5178038C1E52AFA597328999768" : 0,
+    "0F7A8B71090EDAE5933DF31AC3E60698ECDA809A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9EE3C684-D43F-42A8-9FEE-C5DAC901B79F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB3E5ED5AD1DA5178038C1E52AFA597328999768" : "",
+    "0F7A8B71090EDAE5933DF31AC3E60698ECDA809A" : "WageCountyProject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WageCountyProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WageCountyProject.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/damnhansy\/WageCounty.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F7A8B71090EDAE5933DF31AC3E60698ECDA809A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/damnhansy\/myswiftproject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB3E5ED5AD1DA5178038C1E52AFA597328999768"
+    }
+  ]
+}
